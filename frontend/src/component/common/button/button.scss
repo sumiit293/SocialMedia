@@ -1,0 +1,52 @@
+@import './../assets/scss/colors.scss' ;
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.primary {
+  border: 1px solid teal;
+  color: white;
+  font-weight: bold;
+  background-color: teal;
+  &:hover {
+    background: $white;
+    color: teal;
+  }
+}
+
+.secondary {
+  font-weight: bolder;
+  width: auto;
+  border: 1px solid $cararra;
+  color: $black;
+  background-color: $cararra;
+  &:hover {
+    background: $cararra;
+    color: $black;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+  outline: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.disabled-button{
+  background-color: grey;
+}

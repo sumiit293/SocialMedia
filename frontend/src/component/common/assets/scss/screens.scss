@@ -1,0 +1,22 @@
+/* ===== == = === 20em (320px) === = == ===== */
+$mobile-width-min: 20em;
+/* ===== == = === 20em (375px) === = == ===== */
+$iphone-regular-min: 23.4375em;
+/* ===== == = === 30em (480px) === = == ===== */
+$mobile-width-max: 30em;
+/* ===== == = === 37.5em (600px) === = == ===== */
+$tablet-width-min: 37.5em;
+/* ===== == = === 48em (768px) === = == ===== */
+$tablet-width: 48em;
+// /* ===== == = === 56.25em (900px) === = == ===== */
+$tablet-width-min-landscape: 56.25em;
+/* ===== == = === 69.5em (1112px) === = == ===== */
+$desktop-width-min: 69.5em;
+/* ===== == = === 90em (2040px) === = == ===== */
+$desktop-width-max: 100em;
+
+:export {
+    mobile: $mobile-width-min;
+    tablet: $tablet-width-min;
+    desktop: $tablet-width-min-landscape;
+}

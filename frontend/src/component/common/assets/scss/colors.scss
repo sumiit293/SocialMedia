@@ -1,0 +1,21 @@
+$white: #ffffff;
+$black: #000000;
+$red: #e51032;
+$grey: #4e5053;
+$whitesmoke: #f4f4f4;
+$blue: #0000ff;
+$green: #67B564;
+$lightGrey: #ededee;
+$breakerBay: #599A9D;
+$cararra: #EDEBE8;
+
+:export {
+    white: $white;
+    black: $black;
+    grey: $grey;
+    blue: $blue;
+    green: $green;
+    lightGrey: $lightGrey;
+    teal: $breakerBay;
+    cararra: $cararra;
+}
